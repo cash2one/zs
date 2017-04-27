@@ -1,0 +1,36 @@
+2017-03-31 10:25:22 [scrapy.utils.log] INFO: Scrapy 1.3.0 started (bot: myprojec)
+2017-03-31 10:25:22 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'myprojec', 'CONCURRENT_REQUESTS_PER_DOMAIN': 1, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'logs/myprojec/taxqi/49411f1215b911e78e38c4b301d091b1.log', 'NEWSPIDER_MODULE': 'myprojec.spiders', 'SPIDER_MODULES': ['myprojec.spiders']}
+2017-03-31 10:25:22 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-03-31 10:25:22 [py.warnings] WARNING: /usr/local/lib/python3.6/site-packages/scrapy/utils/deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2017-03-31 10:25:22 [py.warnings] WARNING: /usr/local/lib/python3.6/site-packages/scrapy/utils/deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2017-03-31 10:25:22 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['myprojec.midle.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'myprojec.midle.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-31 10:25:22 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-31 10:25:22 [scrapy.middleware] INFO: Enabled item pipelines:
+['myprojec.pipelines.JsonWithEncodingCnblogsPipeline']
+2017-03-31 10:25:22 [scrapy.core.engine] INFO: Spider opened
+2017-03-31 10:25:22 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-31 10:25:22 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6024
+2017-03-31 10:25:22 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182

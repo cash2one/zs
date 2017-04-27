@@ -1,0 +1,123 @@
+2017-03-31 10:10:28 [scrapy.utils.log] INFO: Scrapy 1.3.0 started (bot: myprojec)
+2017-03-31 10:10:28 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'myprojec', 'CONCURRENT_REQUESTS_PER_DOMAIN': 1, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'logs/myprojec/chinatax/308f1b3815b711e79cedc4b301d091b1.log', 'NEWSPIDER_MODULE': 'myprojec.spiders', 'SPIDER_MODULES': ['myprojec.spiders']}
+2017-03-31 10:10:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-03-31 10:10:28 [py.warnings] WARNING: /usr/local/lib/python3.6/site-packages/scrapy/utils/deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2017-03-31 10:10:28 [py.warnings] WARNING: /usr/local/lib/python3.6/site-packages/scrapy/utils/deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2017-03-31 10:10:29 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['myprojec.midle.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'myprojec.midle.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-03-31 10:10:29 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-03-31 10:10:29 [scrapy.middleware] INFO: Enabled item pipelines:
+['myprojec.pipelines.JsonWithEncodingCnblogsPipeline']
+2017-03-31 10:10:29 [scrapy.core.engine] INFO: Spider opened
+2017-03-31 10:10:29 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-31 10:10:29 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-03-31 10:10:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html> (referer: None) ['partial']
+2017-03-31 10:10:30 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:30 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:30 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:30 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:30 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:30 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:30 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:31 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:31 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:31 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:31 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:31 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:31 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:31 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:31 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:31 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:31 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:31 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:31 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:32 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_28.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-03-31 10:10:33 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:33 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_27.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-03-31 10:10:34 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:35 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_26.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-03-31 10:10:35 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:35 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_25.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-03-31 10:10:36 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:38 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_24.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-03-31 10:10:38 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:38 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_23.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-03-31 10:10:39 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:39 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_22.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-03-31 10:10:41 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:41 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_21.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-03-31 10:10:42 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:10:45 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-03-31 10:10:45 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET http://www.chinatax.gov.cn/n810341/n810780/c1160684/content.html> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2017-03-31 10:11:29 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 9 pages/min), scraped 0 items (at 0 items/min)
+2017-03-31 10:11:42 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_20.html> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion.>]
+2017-03-31 10:11:42 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:11:42 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-03-31 10:12:29 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-31 10:12:57 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_19.html> (failed 1 times): TCP connection timed out: 60: Operation timed out.
+2017-03-31 10:12:57 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:12:58 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-03-31 10:13:29 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-31 10:14:13 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_18.html> (failed 1 times): TCP connection timed out: 60: Operation timed out.
+2017-03-31 10:14:13 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:14:13 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-03-31 10:14:29 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-31 10:15:29 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_17.html> (failed 1 times): TCP connection timed out: 60: Operation timed out.
+2017-03-31 10:15:29 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-31 10:15:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:15:30 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-03-31 10:16:29 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-31 10:16:45 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_16.html> (failed 1 times): TCP connection timed out: 60: Operation timed out.
+2017-03-31 10:16:45 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:16:46 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-03-31 10:17:29 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-31 10:18:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_15.html> (failed 1 times): TCP connection timed out: 60: Operation timed out.
+2017-03-31 10:18:00 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-03-31 10:18:00 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-03-31 10:18:29 [scrapy.extensions.logstats] INFO: Crawled 9 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-03-31 10:19:16 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_14.html> (failed 1 times): TCP connection timed out: 60: Operation timed out.
+2017-03-31 10:19:16 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182

@@ -1,0 +1,450 @@
+2017-04-20 14:44:28 [scrapy.utils.log] INFO: Scrapy 1.3.0 started (bot: myprojec)
+2017-04-20 14:44:28 [scrapy.utils.log] INFO: Overridden settings: {'BOT_NAME': 'myprojec', 'CONCURRENT_REQUESTS_PER_DOMAIN': 1, 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'logs/myprojec/chinatax/cb03898c259411e78999c4b301d091b1.log', 'NEWSPIDER_MODULE': 'myprojec.spiders', 'SPIDER_MODULES': ['myprojec.spiders']}
+2017-04-20 14:44:28 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2017-04-20 14:44:28 [py.warnings] WARNING: /usr/local/lib/python3.6/site-packages/scrapy/utils/deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.useragent.UserAgentMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.useragent.UserAgentMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2017-04-20 14:44:28 [py.warnings] WARNING: /usr/local/lib/python3.6/site-packages/scrapy/utils/deprecate.py:156: ScrapyDeprecationWarning: `scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware` class is deprecated, use `scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware` instead
+  ScrapyDeprecationWarning)
+
+2017-04-20 14:44:28 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['myprojec.midle.ProxyMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'myprojec.midle.RotateUserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2017-04-20 14:44:28 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2017-04-20 14:44:29 [scrapy.middleware] INFO: Enabled item pipelines:
+['myprojec.pipelines.JsonWithEncodingCnblogsPipeline']
+2017-04-20 14:44:29 [scrapy.core.engine] INFO: Spider opened
+2017-04-20 14:44:29 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 14:44:29 [scrapy.extensions.telnet] DEBUG: Telnet console listening on 127.0.0.1:6023
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html> (referer: None) ['partial']
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_57.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:30 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:30 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_56.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:31 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:31 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_55.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:33 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:33 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_54.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:34 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:34 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_53.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:35 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:35 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_52.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:37 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:37 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_51.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:38 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:38 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_50.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:39 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:39 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_49.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:40 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:40 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_48.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:41 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:41 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_47.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:43 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:43 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_46.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:44 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:44 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_45.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:45 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:45 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_44.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:47 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:47 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_43.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:48 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:48 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_42.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html) ['partial']
+2017-04-20 14:44:49 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:49 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:50 [scrapy.core.engine] DEBUG: Crawled (404) <GET http://www.chinatax.gov.cn/n810341/n810780/index_831221_299.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_1.html)
+2017-04-20 14:44:50 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:50 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:44:51 [scrapy.spidermiddlewares.httperror] INFO: Ignoring response <404 http://www.chinatax.gov.cn/n810341/n810780/index_831221_299.html>: HTTP status code is not handled or not allowed
+2017-04-20 14:44:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c1714171/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_57.html) ['partial']
+2017-04-20 14:44:52 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:44:52 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:47:23 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 14:47:23 [scrapy.extensions.logstats] INFO: Crawled 19 pages (at 19 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 14:47:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2014435/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_56.html) ['partial']
+2017-04-20 14:47:23 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:47:23 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:49:54 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 14:49:54 [scrapy.extensions.logstats] INFO: Crawled 20 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 14:49:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c1917574/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_55.html) ['partial']
+2017-04-20 14:49:54 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:49:54 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 14:52:26 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 14:52:26 [scrapy.extensions.logstats] INFO: Crawled 21 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 14:52:26 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c1801473/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:26 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:26 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:27 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2534023/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:27 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:27 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:29 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2511540/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:29 [scrapy.extensions.logstats] INFO: Crawled 21 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 14:52:30 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2488605/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:30 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:30 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:31 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2476919/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:31 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:31 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:32 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2450913/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:32 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:32 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:33 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2424761/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:33 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:33 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:34 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2414368/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:34 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:34 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:35 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2397321/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:35 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:35 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:36 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2347943/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:36 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:36 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:37 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2299789/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:37 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:37 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:38 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2280266/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:38 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:38 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:39 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2260278/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:39 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:39 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:41 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2269289/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:41 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:41 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:42 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2329670/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:42 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:42 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:43 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2270098/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 14:52:43 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:43 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:52:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2270202/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_42.html) ['partial']
+2017-04-20 14:52:45 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:52:45 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:55:16 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 14:55:16 [scrapy.extensions.logstats] INFO: Crawled 22 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 14:55:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2271262/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_42.html) ['partial']
+2017-04-20 14:55:16 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:55:16 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 14:57:47 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 14:57:47 [scrapy.extensions.logstats] INFO: Crawled 23 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 14:57:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2271525/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_42.html) ['partial']
+2017-04-20 14:57:47 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 14:57:47 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 15:00:22 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 15:00:22 [scrapy.extensions.logstats] INFO: Crawled 24 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 15:00:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2269966/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_42.html) ['partial']
+2017-04-20 15:00:22 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:00:22 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 18
+2017-04-20 15:02:54 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 15:02:54 [scrapy.extensions.logstats] INFO: Crawled 25 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 15:02:54 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2270012/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:02:54 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:02:54 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:02:55 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2270655/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:02:55 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:02:55 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:02:56 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2271570/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:02:56 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:02:56 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:02:58 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2271547/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:02:58 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:02:58 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:02:59 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2271741/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:02:59 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:02:59 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:03:00 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2271891/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:03:00 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:03:00 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:03:01 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2271722/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:03:01 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:03:01 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:03:02 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2272690/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:03:02 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:03:02 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:03:04 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2275428/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:03:04 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:03:04 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:03:05 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2276510/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:03:05 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:03:05 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:03:06 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2275384/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:03:06 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:03:07 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:03:08 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2275408/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:03:08 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:03:08 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:03:09 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2276066/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:03:09 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:03:09 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:03:10 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2276096/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:03:10 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:03:10 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:03:11 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2276081/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:03:11 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:03:11 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:03:12 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2278508/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:03:12 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:03:12 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:03:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2279164/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_42.html) ['partial']
+2017-04-20 15:03:13 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:03:13 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:05:44 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 15:05:44 [scrapy.extensions.logstats] INFO: Crawled 26 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 15:05:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2280116/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_42.html) ['partial']
+2017-04-20 15:05:44 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:05:44 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:08:15 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 15:08:15 [scrapy.extensions.logstats] INFO: Crawled 27 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 15:08:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2280281/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_43.html) ['partial']
+2017-04-20 15:08:15 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:08:15 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:10:46 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 15:10:46 [scrapy.extensions.logstats] INFO: Crawled 28 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 15:10:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2280067/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_43.html) ['partial']
+2017-04-20 15:10:46 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:10:46 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 19
+2017-04-20 15:13:17 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 15:13:17 [scrapy.extensions.logstats] INFO: Crawled 29 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 15:13:17 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2280082/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:17 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:17 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:18 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2280296/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:18 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:18 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:19 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2280315/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:19 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:19 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:20 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2282272/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:20 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:20 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:21 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2283558/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:21 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:21 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:22 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2283539/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:22 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:22 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:24 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2284108/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:24 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:24 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:25 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2284083/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:25 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:25 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:26 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2284662/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:26 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:26 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:27 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2288237/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:27 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:27 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:29 [scrapy.extensions.logstats] INFO: Crawled 29 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 15:13:29 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2291292/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:30 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2291277/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:30 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:30 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:31 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2292326/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:31 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:31 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:33 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2293226/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:33 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:33 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:34 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2299370/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:34 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:34 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:35 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2299445/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:13:35 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:35 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:13:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2299475/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_43.html) ['partial']
+2017-04-20 15:13:36 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:13:36 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:16:07 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 15:16:07 [scrapy.extensions.logstats] INFO: Crawled 30 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 15:16:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2299724/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_43.html) ['partial']
+2017-04-20 15:16:07 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:16:07 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:18:38 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 15:18:38 [scrapy.extensions.logstats] INFO: Crawled 31 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 15:18:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2299693/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_43.html) ['partial']
+2017-04-20 15:18:38 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:18:38 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:09 [chinatax] ERROR: parse_webpage_error:Error 60 connecting to 192.168.1.220:6379. Operation timed out.
+2017-04-20 15:21:09 [scrapy.extensions.logstats] INFO: Crawled 32 pages (at 1 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 15:21:09 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2299755/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:09 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:09 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:10 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2300024/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:10 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:10 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:11 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2297819/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:11 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:11 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:12 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2299820/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:12 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:12 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:14 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2299908/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:14 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:14 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:15 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2299931/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:15 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:15 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:16 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2299982/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:16 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:16 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:17 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2299040/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:17 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:17 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:18 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2301751/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:18 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:18 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:19 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2301717/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:19 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:20 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:21 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2302062/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:21 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:21 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:22 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2302009/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:22 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:22 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:23 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2301986/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:23 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:23 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:25 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2302394/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:25 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:25 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:26 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2319764/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:26 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:26 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:28 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2329150/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:28 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:28 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:29 [scrapy.extensions.logstats] INFO: Crawled 32 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2017-04-20 15:21:29 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2339740/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:29 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:29 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:30 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2341658/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:30 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:30 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:31 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2341692/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:31 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:31 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:33 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2341677/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:33 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:33 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:34 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2341520/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:34 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:34 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:35 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2342946/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:35 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:35 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:36 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2342892/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:36 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:36 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:38 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2342927/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:38 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:38 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:39 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2342357/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:39 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:39 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:40 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2346821/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:40 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:40 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:41 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2346836/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:41 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:41 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:42 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2361230/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:42 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:42 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:43 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2355504/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:43 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:43 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:45 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2366819/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:45 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:45 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:46 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2366835/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:46 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:46 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:48 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2366804/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:48 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:48 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:49 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2365222/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:49 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:49 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:50 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2367952/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:50 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:50 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:51 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2388137/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:51 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:51 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:53 [scrapy.downloadermiddlewares.retry] DEBUG: Retrying <GET http://www.chinatax.gov.cn/n810341/n810780/c2388278/content.html> (failed 1 times): Connection was refused by other side: 61: Connection refused.
+2017-04-20 15:21:53 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:53 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
+2017-04-20 15:21:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET http://www.chinatax.gov.cn/n810341/n810780/c2389441/content.html> (referer: http://www.chinatax.gov.cn/n810341/n810780/index_831221_45.html) ['partial']
+2017-04-20 15:21:54 [requests.packages.urllib3.connectionpool] DEBUG: Starting new HTTP connection (1): 182.254.215.182
+2017-04-20 15:21:54 [requests.packages.urllib3.connectionpool] DEBUG: http://182.254.215.182:5999 "GET / HTTP/1.1" 200 20
