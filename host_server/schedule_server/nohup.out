@@ -1,0 +1,65 @@
+ * Running on http://0.0.0.0:5888/ (Press CTRL+C to quit)
+192.168.5.220 - - [19/Apr/2017 14:55:19] "GET /change/scrapyd_url/192.168.5.220:6800 HTTP/1.1" 200 -
+[2017-04-20 15:29:26,241] ERROR in app: Exception on /update_spider [GET]
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1615, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1630, in finalize_request
+    response = self.make_response(rv)
+  File "/Library/Python/2.7/site-packages/flask/app.py", line 1725, in make_response
+    raise ValueError('View function did not return a response')
+ValueError: View function did not return a response
+192.168.5.220 - - [20/Apr/2017 15:29:26] "GET /update_spider HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+ * Running on http://0.0.0.0:5888/ (Press CTRL+C to quit)
+192.168.5.220 - - [20/Apr/2017 17:08:54] "GET /update_spider HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+192.168.5.220 - - [21/Apr/2017 10:56:27] "GET /update_spider HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 295, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 321, in process_request
+    self.finish_request(request, client_address)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 657, in __init__
+    self.finish()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 716, in finish
+    self.wfile.close()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe

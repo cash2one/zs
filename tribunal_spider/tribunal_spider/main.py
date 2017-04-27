@@ -1,0 +1,10 @@
+from scrapy import cmdline
+# cmdline.execute("scrapy crawl chinatax -s LOG_FILE=chinatax.log".split())
+# cmdline.execute("scrapy crawl jiangsu".split())
+cmdline.execute("scrapy crawl heilongjiang".split())
+# cmdline.execute("scrapy crawl zhejiang".split())
+# cmdline.execute("scrapy crawl guangdong".split())
+# cmdline.execute("scrapy crawl shanghai".split())
+# cmdline.execute("scrapy crawl shanghai -s JOBDIR=job-shanghai".split())
+# cmdline.execute("scrapy crawl guangdong -s JOBDIR=job-guangdong".split())
+# cmdline.execute("scrapy crawl zhejiang -s JOBDIR=job-zhejiang".split())

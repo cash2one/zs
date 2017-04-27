@@ -1,0 +1,26 @@
+[INFO  - 2017-04-26T09:05:05.154Z] GhostDriver - Main - running on port 51976
+[INFO  - 2017-04-26T09:05:05.423Z] Session [7065a9e0-2a5f-11e7-b3e5-2552033031ac] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-26T09:05:05.423Z] Session [7065a9e0-2a5f-11e7-b3e5-2552033031ac] - page.customHeaders:  - {}
+[INFO  - 2017-04-26T09:05:05.424Z] Session [7065a9e0-2a5f-11e7-b3e5-2552033031ac] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-26T09:05:05.424Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7065a9e0-2a5f-11e7-b3e5-2552033031ac
+[INFO  - 2017-04-26T09:05:14.052Z] Session [7065a9e0-2a5f-11e7-b3e5-2552033031ac] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-04-26T09:05:14.054Z] Session [7065a9e0-2a5f-11e7-b3e5-2552033031ac] - page.customHeaders:  - {}
+[ERROR - 2017-04-26T09:05:16.184Z] Session [7065a9e0-2a5f-11e7-b3e5-2552033031ac] - page.onError - msg: Error: Syntax error, unrecognized expression: iframe[src^="http://www.zjzwfw.gov.cn/zjzw/service/list/showlist.do?webId="
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-04-26T09:05:16.184Z] Session [7065a9e0-2a5f-11e7-b3e5-2552033031ac] - page.onError - stack:
+  error (http://sbcx.pcyyhj.zjzwfw.gov.cn/lib/jquery.min.js:2)
+  tokenize (http://sbcx.pcyyhj.zjzwfw.gov.cn/lib/jquery.min.js:2)
+  select (http://sbcx.pcyyhj.zjzwfw.gov.cn/lib/jquery.min.js:2)
+  ga (http://sbcx.pcyyhj.zjzwfw.gov.cn/lib/jquery.min.js:2)
+  find (http://sbcx.pcyyhj.zjzwfw.gov.cn/lib/jquery.min.js:2)
+  init (http://sbcx.pcyyhj.zjzwfw.gov.cn/lib/jquery.min.js:2)
+  m (http://sbcx.pcyyhj.zjzwfw.gov.cn/lib/jquery.min.js:2)
+  (anonymous function) (http://zjjcmspublic.oss-cn-hangzhou.aliyuncs.com/jcms_files/jcms1/web1/site/script/bottom/bottom.js:8)
+  j (http://sbcx.pcyyhj.zjzwfw.gov.cn/lib/jquery.min.js:2)
+  fireWith (http://sbcx.pcyyhj.zjzwfw.gov.cn/lib/jquery.min.js:2)
+  ready (http://sbcx.pcyyhj.zjzwfw.gov.cn/lib/jquery.min.js:2)
+  J (http://sbcx.pcyyhj.zjzwfw.gov.cn/lib/jquery.min.js:2)
+
+  phantomjs://platform/console++.js:263 in error
+[INFO  - 2017-04-26T09:10:05.170Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW

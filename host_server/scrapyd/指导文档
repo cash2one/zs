@@ -1,0 +1,2 @@
+docker pull harrisbaird/scrapyd:py3.5
+docker run -d --restart always --name scrapyd -p 6800:6800 harrisbaird/scrapyd:py3.5

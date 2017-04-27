@@ -1,0 +1,1 @@
+*/2 * * * * /home/adsl/AutoProxy/client/request.sh /home/adsl/AutoProxy/client/request.conf >> /home/adsl/AutoProxy/client/request.log
